@@ -31,6 +31,7 @@
     validate_certs: no
     aaa_user: '{{ script_user }}'
     certificate_name: ansible
+    name: ansible
     certificate: "{{ lookup('file', certfile) }}"
 
 - name: Attach security domain "all" to script user

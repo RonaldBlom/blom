@@ -1,0 +1,6 @@
+[apic:vars]
+username = admin
+password = C1sco12345
+
+[apic]
+198.18.133.200
